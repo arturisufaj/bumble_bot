@@ -8,10 +8,10 @@ from credentials import phone_num, password
 parametrizing the paths for better configurability/change control
 ideally one should move away from xPaths and use element_ids instead
 '''
-sign_in_bttn_path = '//*[@id="page"]/div/div/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div/div[2]/a'
-use_cell_bttn_path = '//*[@id="main"]/div/div[1]/div[2]/main/div/div[2]/form/div[3]/div/span/span'
+sign_in_bttn_path = "//a[@data-seo-label='sign-in']"
+use_cell_bttn_path = "//div[@class='button button--narrow button--size-m  color-primary button--transparent'"
 phone_num_prompt_path = '//*[@id="phone"]'
-continue_bttn_path = '//*[@id="main"]/div/div[1]/div[2]/main/div/div[2]/form/div[4]/button/span/span'
+continue_bttn_path = "//div[@class='button button--narrow button--size-m  color-primary button--filled'"
 password_prompt_path = '//*[@id="pass"]'
 sign_in_bttn_2_path = '//*[@id="main"]/div/div[1]/div[2]/main/div/div[2]/form/div[2]/button/span/span'
 like_bttn_path = '//*[@id="main"]/div/div[1]/main/div[2]/div/div/span/div[2]/div/div[2]/div/div[3]/div/div[1]/span'
